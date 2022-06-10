@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExComposicao2", "ExComposicao2\ExComposicao2.csproj", "{512D8728-703D-4A35-95E6-FBABBB2E77B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExComposicao2", "ExComposicao2\ExComposicao2.csproj", "{512D8728-703D-4A35-95E6-FBABBB2E77B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExComposicao1", "ExComposicao1\ExComposicao1.csproj", "{100E2384-4507-477C-A9DA-82418CF0BD9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExComposicao1", "ExComposicao1\ExComposicao1.csproj", "{100E2384-4507-477C-A9DA-82418CF0BD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExComposicao3", "ExComposicao3\ExComposicao3.csproj", "{54DACC7C-D4F1-4A7E-91B0-FD7A2616FAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{100E2384-4507-477C-A9DA-82418CF0BD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100E2384-4507-477C-A9DA-82418CF0BD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100E2384-4507-477C-A9DA-82418CF0BD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DACC7C-D4F1-4A7E-91B0-FD7A2616FAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DACC7C-D4F1-4A7E-91B0-FD7A2616FAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DACC7C-D4F1-4A7E-91B0-FD7A2616FAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DACC7C-D4F1-4A7E-91B0-FD7A2616FAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
