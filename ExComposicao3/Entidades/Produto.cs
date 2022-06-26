@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExComposicao3.Entidades
+﻿namespace ExComposicao3.Entidades
 {
     public class Produto
     {
