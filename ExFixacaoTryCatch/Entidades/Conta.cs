@@ -1,4 +1,4 @@
-﻿using ExFixacaoTryCatch.Entidades.Excecoes
+﻿using ExFixacaoTryCatch.Entidades.Excecoes;
 
 namespace ExFixacaoTryCatch.Entidades
 {
@@ -24,12 +24,19 @@ namespace ExFixacaoTryCatch.Entidades
 
         public void Saque (double valor)
         {
-            if (valor > Saldo)
-                throw new DomainException($"Não há saldo suficiente para o saque! Saldo atual {Saldo}");
             if (Saldo <= 0.0)
                 throw new DomainException("Saldo zerado ou negativo, não é possível realizar saque!");
+            if (valor > Saldo)
+                throw new DomainException($"Não há saldo suficiente para o saque! Saldo atual {Saldo}");
+            if (valor > LimiteSaque)
+                throw new DomainException($"Valor de saque maior que o limite! Seu limite é: {LimiteSaque}");
             
             Saldo -= valor;
+        }
+
+        public override string ToString()
+        {
+            return $"Dados da conta:\n Titular: {Nome} \n Saldo: {Saldo}";
         }
     }
 }
