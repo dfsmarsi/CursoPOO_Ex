@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolimorfismoExFixação", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExFixacaoMetodosAbstratos", "ExFixacaoMetodosAbstratos\ExFixacaoMetodosAbstratos.csproj", "{74A14C97-0053-4DD3-851A-8131FDEE8A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExFixacaoTryCatch", "ExFixacaoTryCatch\ExFixacaoTryCatch.csproj", "{36D940E4-4A88-454C-AEE6-F70AD551D2CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExFixacaoTryCatch", "ExFixacaoTryCatch\ExFixacaoTryCatch.csproj", "{36D940E4-4A88-454C-AEE6-F70AD551D2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExFixacaoArquivos", "ExFixacaoArquivos\ExFixacaoArquivos.csproj", "{75F9D8F6-8C91-4F4F-9341-06C472491BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{36D940E4-4A88-454C-AEE6-F70AD551D2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D940E4-4A88-454C-AEE6-F70AD551D2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D940E4-4A88-454C-AEE6-F70AD551D2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F9D8F6-8C91-4F4F-9341-06C472491BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F9D8F6-8C91-4F4F-9341-06C472491BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F9D8F6-8C91-4F4F-9341-06C472491BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F9D8F6-8C91-4F4F-9341-06C472491BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
