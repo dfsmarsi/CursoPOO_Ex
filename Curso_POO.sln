@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExFixacaoTryCatch", "ExFixa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExFixacaoArquivos", "ExFixacaoArquivos\ExFixacaoArquivos.csproj", "{75F9D8F6-8C91-4F4F-9341-06C472491BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExFixacaoInterfaceServices", "ExFixacaoInterfaceServices\ExFixacaoInterfaceServices.csproj", "{EBA541EE-555D-4067-90B6-DB68169742FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExFixacaoInterfaceServices", "ExFixacaoInterfaceServices\ExFixacaoInterfaceServices.csproj", "{EBA541EE-555D-4067-90B6-DB68169742FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExFixacaoHashset", "ExFixacaoHashset\ExFixacaoHashset.csproj", "{4C0C8B91-D0B0-410B-8E80-0030048BC8D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EBA541EE-555D-4067-90B6-DB68169742FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA541EE-555D-4067-90B6-DB68169742FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA541EE-555D-4067-90B6-DB68169742FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C8B91-D0B0-410B-8E80-0030048BC8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C8B91-D0B0-410B-8E80-0030048BC8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C8B91-D0B0-410B-8E80-0030048BC8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C8B91-D0B0-410B-8E80-0030048BC8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
