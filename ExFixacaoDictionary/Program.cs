@@ -10,11 +10,16 @@ namespace ExFixacaoDictionary
         static void Main(string[] args)
         {
             Dictionary<string, int> dicionarioCandidatos = new Dictionary<string, int>();
-            string caminho = @"";
+            string caminho = @"C:\Sistemasbr\votos.txt";
 
             Candidato candidato = new Candidato();
             ApurarVotosService apurarVotos = new ApurarVotosService(new CalculoVotosPorArquivoService(caminho, dicionarioCandidatos));
             apurarVotos.ApurarVotos(candidato);
+
+            foreach (KeyValuePair<string, int> itemCandidato in dicionarioCandidatos)
+            {
+                Console.WriteLine(itemCandidato.Key + ": " + itemCandidato.Value);
+            }
         }
     }
 }
