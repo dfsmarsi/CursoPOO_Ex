@@ -34,7 +34,7 @@ namespace ExFixacaoDictionary.Services
             if (DictionaryCandidatos.ContainsKey(candidato.Nome))
                 DictionaryCandidatos[candidato.Nome] += candidato.QuantidadeVotos;
             else
-                DictionaryCandidatos[candidato.Nome] = candidato.QuantidadeVotos;
+                DictionaryCandidatos.TryAdd(candidato.Nome, candidato.QuantidadeVotos);
         }
     }
 }
